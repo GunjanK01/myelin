@@ -1,0 +1,172 @@
+
+# ============================================
+# PYTHON / BACKEND
+# ============================================
+
+# Virtual environment
+backend/venv/
+backend/env/
+backend/.venv/
+backend/.env/
+
+# Python cache
+backend/__pycache__/
+backend/**/__pycache__/
+backend/**/*.pyc
+backend/**/*.pyo
+backend/**/*.pyd
+backend/.Python
+
+# Egg info
+backend/*.egg-info/
+backend/.eggs/
+backend/*.egg
+
+# Environment variables (SECRETS - DO NOT COMMIT)
+backend/.env
+backend/.env.local
+backend/.env.*.local
+
+# Database files
+backend/*.db
+backend/*.sqlite
+backend/*.sqlite3
+backend/migrations/__pycache__/
+backend/migrations/versions/*.pyc
+
+# Logs
+backend/logs/
+backend/*.log
+
+# Testing
+backend/.pytest_cache/
+backend/.coverage
+backend/htmlcov/
+backend/.tox/
+
+# IDE / Editor
+backend/.vscode/
+backend/.idea/
+backend/*.swp
+backend/*.swo
+backend/*~
+backend/.DS_Store
+
+# ============================================
+# NODE.JS / FRONTEND
+# ============================================
+
+# Dependencies
+frontend/node_modules/
+frontend/.pnp
+frontend/.pnp.js
+
+# Testing
+frontend/.next/
+frontend/out/
+frontend/.turbo/
+
+# Production build
+frontend/build/
+frontend/dist/
+
+# Environment variables (SECRETS - DO NOT COMMIT)
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+# Logs
+frontend/npm-debug.log
+frontend/yarn-debug.log
+frontend/yarn-error.log
+frontend/lerna-debug.log
+
+# IDE / Editor
+frontend/.vscode/
+frontend/.idea/
+frontend/*.swp
+frontend/*.swo
+frontend/*~
+frontend/.DS_Store
+frontend/.eslintcache
+
+# OS / System
+frontend/.DS_Store
+frontend/Thumbs.db
+
+# ============================================
+# OPERATING SYSTEM
+# ============================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+*.swp
+*~
+.env.swp
+.vscode/settings.json
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+.directory
+.Trash-*
+
+# ============================================
+# IDE / EDITOR SETTINGS
+# ============================================
+
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.vim/
+.emacs.d/
+.jenv
+.python-version
+
+# ============================================
+# MISC
+# ============================================
+
+# OS files
+*.DS_Store
+.env.example.swp
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Package managers
+yarn.lock
+pnpm-lock.yaml
+
+# Docker
+docker-compose.override.yml
+
+# ============================================
+# IMPORTANT: DO NOT REMOVE THESE PATTERNS
+# ============================================
+
+# Secrets and sensitive files
+.env*
+!.env.example
+!.env.local.example
+secrets/
+*.key
+*.pem
+credentials/
+
+# Build artifacts
+dist/
+build/
+*.bundle.js
+
+# Database backups
+*.sql
+database_backup/
